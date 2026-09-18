@@ -1,0 +1,50 @@
+<svg width="1200" height="320" viewBox="0 0 1200 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#070B18"/>
+      <stop offset="0.48" stop-color="#15103A"/>
+      <stop offset="1" stop-color="#071827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="360" y1="80" x2="840" y2="260" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A78BFA"/>
+      <stop offset="0.5" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#22D3EE"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#8B5CF6" stop-opacity=".26"/>
+      <stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="320" rx="22" fill="url(#bg)"/>
+  <circle cx="210" cy="130" r="200" fill="url(#glow)">
+    <animate attributeName="r" values="180;220;180" dur="6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1000" cy="230" r="220" fill="url(#glow)" opacity=".7">
+    <animate attributeName="r" values="220;180;220" dur="7s" repeatCount="indefinite"/>
+  </circle>
+
+  <g opacity=".6" fill="#C4B5FD">
+    <circle cx="92" cy="72" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="170" cy="244" r="1.5"><animate attributeName="opacity" values="1;.15;1" dur="3.1s" repeatCount="indefinite"/></circle>
+    <circle cx="310" cy="54" r="1.5"><animate attributeName="opacity" values=".2;1;.2" dur="3.7s" repeatCount="indefinite"/></circle>
+    <circle cx="915" cy="69" r="2"><animate attributeName="opacity" values="1;.2;1" dur="2.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1095" cy="121" r="1.5"><animate attributeName="opacity" values=".15;1;.15" dur="3.3s" repeatCount="indefinite"/></circle>
+    <circle cx="1040" cy="271" r="2"><animate attributeName="opacity" values="1;.2;1" dur="4s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <path d="M80 278C265 230 310 304 496 267C692 227 755 286 1122 224" stroke="url(#accent)" stroke-opacity=".24" stroke-width="2"/>
+  <path d="M80 293C265 245 310 319 496 282C692 242 755 301 1122 239" stroke="url(#accent)" stroke-opacity=".1"/>
+
+  <text x="600" y="137" fill="url(#accent)" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="64" font-weight="800" letter-spacing="2" filter="url(#softGlow)">MILO</text>
+  <text x="600" y="184" fill="#E6EDF3" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="21" font-weight="500" letter-spacing="5">ESTUDIANTE · DESARROLLADOR · CREADOR</text>
+  <rect x="446" y="213" width="308" height="2" rx="1" fill="url(#accent)">
+    <animate attributeName="width" values="80;308;80" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="560;446;560" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <text x="600" y="255" fill="#8B949E" text-anchor="middle" font-family="ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace" font-size="15" letter-spacing="2">DONMILO-22 · CAMPECHE, MÉXICO</text>
+</svg>
