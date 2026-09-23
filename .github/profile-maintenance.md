@@ -89,3 +89,4 @@ Small maintenance notes for the profile repository.
 - Batch update 074: routine profile maintenance entry.
 - Batch update 075: routine profile maintenance entry.
 - Batch update 076: routine profile maintenance entry.
+- Batch update 077: routine profile maintenance entry.
