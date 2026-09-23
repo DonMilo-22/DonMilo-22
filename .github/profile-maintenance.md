@@ -109,3 +109,4 @@ Small maintenance notes for the profile repository.
 - Batch update 094: routine profile maintenance entry.
 - Batch update 095: routine profile maintenance entry.
 - Batch update 096: routine profile maintenance entry.
+- Batch update 097: routine profile maintenance entry.
