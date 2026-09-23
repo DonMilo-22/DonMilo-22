@@ -14,3 +14,4 @@ Small maintenance notes for the profile repository.
 - Update 09: refresh housekeeping history.
 - Update 10: complete this maintenance cycle.
 - Batch update 001: routine profile maintenance entry.
+- Batch update 002: routine profile maintenance entry.
