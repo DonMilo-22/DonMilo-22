@@ -11,3 +11,4 @@ Small maintenance notes for the profile repository.
 - Update 06: continue routine repository cleanup.
 - Update 07: document another maintenance pass.
 - Update 08: keep profile repository active.
+- Update 09: refresh housekeeping history.
