@@ -27,3 +27,4 @@ Small maintenance notes for the profile repository.
 - Batch update 012: routine profile maintenance entry.
 - Batch update 013: routine profile maintenance entry.
 - Batch update 014: routine profile maintenance entry.
+- Batch update 015: routine profile maintenance entry.
