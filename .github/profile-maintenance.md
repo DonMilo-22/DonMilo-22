@@ -7,3 +7,4 @@ Small maintenance notes for the profile repository.
 - Update 02: document repository housekeeping.
 - Update 03: record profile upkeep activity.
 - Update 04: refresh maintenance notes.
+- Update 05: keep profile metadata organized.
