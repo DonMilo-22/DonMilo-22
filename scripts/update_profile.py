@@ -1,5 +1,6 @@
 import html
 import json
+import math
 import os
 import urllib.parse
 import urllib.request
@@ -85,25 +86,54 @@ def write_activity_svg(commits, prs, issues, repos_count, year, stamp):
 </svg>"""
     ASSETS.joinpath("github-activity.svg").write_text(svg, encoding="utf-8")
 
+def polar_to_cartesian(cx, cy, r, angle_deg):
+    angle_rad = math.radians(angle_deg - 90)
+    return (cx + r * math.cos(angle_rad), cy + r * math.sin(angle_rad))
+
+def describe_arc(cx, cy, r, start_angle, end_angle):
+    start = polar_to_cartesian(cx, cy, r, end_angle)
+    end = polar_to_cartesian(cx, cy, r, start_angle)
+    large_arc = 1 if end_angle - start_angle > 180 else 0
+    return f"M {start[0]:.2f} {start[1]:.2f} A {r} {r} 0 {large_arc} 0 {end[0]:.2f} {end[1]:.2f}"
+
 def write_languages_svg(languages, stamp):
-    top = languages[:11]
-    max_count = max((count for _, count in top), default=1)
-    height = 92 + len(top) * 30 + 28
-    rows = []
+    top = languages[:10]
+    total = sum(count for _, count in top) or 1
+    width, height = 760, 420
+    cx, cy = 220, 215
+    radius = 112
+    stroke_width = 46
+    arcs = []
+    legend = []
+    start_angle = 0.0
+
     for i, (language, count) in enumerate(top):
-        y = 84 + i * 30
-        width = max(14, int(360 * count / max_count))
+        portion = count / total
+        sweep = portion * 360.0
+        end_angle = start_angle + sweep
         color = COLORS[i % len(COLORS)]
+        if sweep >= 359.999:
+            arcs.append(f'<circle cx="{cx}" cy="{cy}" r="{radius}" fill="none" stroke="{color}" stroke-width="{stroke_width}"/>')
+        else:
+            path = describe_arc(cx, cy, radius, start_angle, end_angle)
+            arcs.append(f'<path d="{path}" fill="none" stroke="{color}" stroke-width="{stroke_width}" stroke-linecap="butt"/>')
+
+        y = 92 + i * 28
         label = html.escape(language)
-        rows.append(f'<text x="28" y="{y+12}" fill="#c9d1d9" font-family="Arial, sans-serif" font-size="13">{label}</text>')
-        rows.append(f'<rect x="170" y="{y}" width="360" height="14" rx="7" fill="#21262d"/>')
-        rows.append(f'<rect x="170" y="{y}" width="{width}" height="14" rx="7" fill="{color}"/>')
-        rows.append(f'<text x="548" y="{y+12}" fill="#8b949e" font-family="Arial, sans-serif" font-size="12">{count} repo{"s" if count != 1 else ""}</text>')
-    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="640" height="{height}" viewBox="0 0 640 {height}">
-  <rect width="640" height="{height}" rx="18" fill="#0d1117" stroke="#30363d"/>
+        legend.append(f'<rect x="430" y="{y}" width="14" height="14" rx="4" fill="{color}"/>')
+        legend.append(f'<text x="452" y="{y+12}" fill="#c9d1d9" font-family="Arial, sans-serif" font-size="13">{label}</text>')
+        legend.append(f'<text x="704" y="{y+12}" fill="#8b949e" font-family="Arial, sans-serif" font-size="12" text-anchor="end">{count} repo{"s" if count != 1 else ""}</text>')
+        start_angle = end_angle
+
+    svg = f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+  <rect width="{width}" height="{height}" rx="18" fill="#0d1117" stroke="#30363d"/>
   <text x="28" y="38" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="20" font-weight="700">Languages by repository</text>
   <text x="28" y="60" fill="#8b949e" font-family="Arial, sans-serif" font-size="12">Primary language detected by GitHub · {html.escape(stamp)}</text>
-  {"".join(rows)}
+  {"".join(arcs)}
+  <circle cx="{cx}" cy="{cy}" r="66" fill="#0d1117"/>
+  <text x="{cx}" y="{cy-2}" text-anchor="middle" fill="#f0f6fc" font-family="Arial, sans-serif" font-size="28" font-weight="700">{total}</text>
+  <text x="{cx}" y="{cy+22}" text-anchor="middle" fill="#8b949e" font-family="Arial, sans-serif" font-size="12">repos</text>
+  {"".join(legend)}
 </svg>"""
     ASSETS.joinpath("languages.svg").write_text(svg, encoding="utf-8")
 
