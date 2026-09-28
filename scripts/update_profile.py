@@ -1,6 +1,8 @@
+import hashlib
 import html
 import json
 import math
+import re
 import os
 import urllib.parse
 import urllib.request
@@ -97,10 +99,11 @@ def describe_arc(cx, cy, r, start_angle, end_angle):
     return f"M {start[0]:.2f} {start[1]:.2f} A {r} {r} 0 {large_arc} 0 {end[0]:.2f} {end[1]:.2f}"
 
 def write_languages_svg(languages, stamp):
-    top = languages[:10]
+    top = languages
     total = sum(count for _, count in top) or 1
-    width, height = 760, 420
-    cx, cy = 220, 215
+    width = 760
+    height = max(420, 110 + len(top) * 28)
+    cx, cy = 220, height // 2
     radius = 112
     stroke_width = 46
     arcs = []
@@ -151,18 +154,16 @@ def main():
         language = repo.get("language") or "Por detectar"
         description = clean(repo.get("description") or FALLBACKS.get(name) or "Proyecto reciente de mi portafolio.")
         lines.append(f"| [**{name}**]({repo['html_url']}) | `{language}` | {description} |")
-    lines += ["", f"<sub>Última sincronización automática: {stamp}</sub>", "", END]
+    lines += ["", "<sub>Actualización automática mediante GitHub Actions.</sub>", "", END]
     project_block = "\n".join(lines)
 
     year = datetime.now(timezone.utc).year
-    query = urllib.parse.quote(f"author:{OWNER} committer-date:>={year}-01-01")
-    commit_search = api(f"https://api.github.com/search/commits?q={query}&per_page=1", accept="application/vnd.github.cloak-preview+json")
-    commits = int(commit_search.get("total_count", 0))
-
     activity_query = """
     query($login: String!, $from: DateTime!, $to: DateTime!) {
       user(login: $login) {
         contributionsCollection(from: $from, to: $to) {
+          totalCommitContributions
+          restrictedContributionsCount
           totalPullRequestContributions
           totalIssueContributions
         }
@@ -170,6 +171,7 @@ def main():
     }
     """
     activity = graphql(activity_query, {"login": OWNER, "from": f"{year}-01-01T00:00:00Z", "to": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")})["user"]["contributionsCollection"]
+    commits = int(activity["totalCommitContributions"]) + int(activity["restrictedContributionsCount"])
 
     language_counts = {}
     for repo in repos:
@@ -181,8 +183,13 @@ def main():
     write_activity_svg(commits, activity["totalPullRequestContributions"], activity["totalIssueContributions"], len(repos), year, stamp)
     write_languages_svg(languages, stamp)
 
+    activity_key = hashlib.sha1(f"{commits}|{activity['totalPullRequestContributions']}|{activity['totalIssueContributions']}|{len(repos)}".encode()).hexdigest()[:8]
+    language_key = hashlib.sha1(json.dumps(languages, ensure_ascii=False).encode()).hexdigest()[:8]
+
     text = README.read_text(encoding="utf-8")
     text = replace_block(text, START, END, project_block)
+    text = re.sub(r'src="\./assets/github-activity\.svg(?:\?v=[^"]*)?"', f'src="./assets/github-activity.svg?v={activity_key}"', text)
+    text = re.sub(r'src="\./assets/languages\.svg(?:\?v=[^"]*)?"', f'src="./assets/languages.svg?v={language_key}"', text)
     README.write_text(text, encoding="utf-8")
 
 if __name__ == "__main__":
