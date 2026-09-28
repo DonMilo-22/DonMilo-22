@@ -104,35 +104,15 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 
 ## 📊 Mi actividad en GitHub
 
-<!-- AUTO:ACTIVITY_START -->
-
 <div align="center">
-  <img src="https://img.shields.io/badge/Commits_2026-410-8B5CF6?style=for-the-badge&logo=git&logoColor=white" alt="Commits del año" />
-  <img src="https://img.shields.io/badge/Pull_Requests-18-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="Pull requests del año" />
-  <img src="https://img.shields.io/badge/Issues-0-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="Issues del año" />
+  <img width="92%" src="./assets/github-activity.svg" alt="Actividad de GitHub actualizada automáticamente" />
 </div>
 
-### 🧬 Lenguajes por repositorio
+<br />
 
-| Lenguaje | Repositorios |
-|---|---:|
-| **JavaScript** | 6 |
-| **Python** | 6 |
-| **C#** | 1 |
-| **C++** | 1 |
-| **Go** | 1 |
-| **Java** | 1 |
-| **Kotlin** | 1 |
-| **PHP** | 1 |
-| **PowerShell** | 1 |
-| **Rust** | 1 |
-| **TypeScript** | 1 |
-
-> Los lenguajes se calculan usando el lenguaje principal que GitHub detecta en cada repositorio público propio.
-
-<sub>Datos sincronizados: 2026-09-28 02:21 UTC</sub>
-
-<!-- AUTO:ACTIVITY_END -->
+<div align="center">
+  <img width="78%" src="./assets/languages.svg" alt="Gráfica de lenguajes por repositorio" />
+</div>
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=DonMilo-22&theme=transparent&hide_border=true&locale=es&ring=8B5CF6&fire=22D3EE&currStreakLabel=8B5CF6&sideLabels=C9D1D9&dates=8B949E" alt="Racha de contribuciones de Milo" />
