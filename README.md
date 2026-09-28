@@ -105,13 +105,13 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 ## 📊 Mi actividad en GitHub
 
 <div align="center">
-  <img width="92%" src="./assets/github-activity.svg?v=463" alt="Actividad de GitHub actualizada automáticamente" />
+  <img width="92%" src="./assets/github-activity.svg?v=3f476544" alt="Actividad de GitHub actualizada automáticamente" />
 </div>
 
 <br />
 
 <div align="center">
-  <img width="88%" src="./assets/languages.svg?v=donut2" alt="Gráfica circular de lenguajes por repositorio" />
+  <img width="88%" src="./assets/languages.svg?v=4ad3484b" alt="Gráfica circular de lenguajes por repositorio" />
 </div>
 
 <div align="center">
