@@ -98,20 +98,20 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 | [**Kotlin-Expense-Tracker**](https://github.com/DonMilo-22/Kotlin-Expense-Tracker) | `Kotlin` | Registro local de gastos y resúmenes mensuales hecho con Kotlin. |
 | [**GoLink-Checker**](https://github.com/DonMilo-22/GoLink-Checker) | `Go` | Comprobador concurrente de URLs y tiempos de respuesta escrito en Go. |
 
-<sub>Última sincronización automática: 2026-09-28 02:25 UTC</sub>
+<sub>Actualización automática mediante GitHub Actions.</sub>
 
 <!-- AUTO:RECENT_PROJECTS_END -->
 
 ## 📊 Mi actividad en GitHub
 
 <div align="center">
-  <img width="92%" src="./assets/github-activity.svg" alt="Actividad de GitHub actualizada automáticamente" />
+  <img width="92%" src="./assets/github-activity.svg?v=c6e2177a" alt="Actividad de GitHub actualizada automáticamente" />
 </div>
 
 <br />
 
 <div align="center">
-  <img width="88%" src="./assets/languages.svg" alt="Gráfica circular de lenguajes por repositorio" />
+  <img width="88%" src="./assets/languages.svg?v=4ad3484b" alt="Gráfica circular de lenguajes por repositorio" />
 </div>
 
 <div align="center">
