@@ -15,20 +15,21 @@ const milo = {
   ubicacion: "Campeche, México 🇲🇽",
   carrera: "Ingeniería en Sistemas Computacionales",
   enfoque: ["Desarrollo web", "Bases de datos", "Software útil"],
-  aprendiendo: ["React", "Node.js", "Arquitectura de software"],
+  aprendiendo: ["TypeScript", "Go", "Rust", "Kotlin", "Arquitectura de software"],
   objetivo: "Convertir ideas en proyectos que la gente realmente use"
 };
 ```
 
 - 🎓 Estudiante de **Ingeniería en Sistemas Computacionales**.
 - 🧭 Me gusta crear proyectos que solucionan necesidades reales.
-- 🧪 Disfruto experimentar con desarrollo web, Python, bases de datos y Arduino.
-- 🌱 Actualmente estoy fortaleciendo mis habilidades de desarrollo full stack.
+- 🧪 Disfruto experimentar con desarrollo web, sistemas, automatización, bases de datos y distintos lenguajes.
+- 🌱 Mi GitHub ahora mezcla proyectos en **TypeScript, Go, C++, Kotlin, React, PowerShell, Rust, Java, C#, PHP, Python y JavaScript**.
+- ⚙️ La sección de proyectos recientes se actualiza automáticamente desde mis repositorios.
 
 ## 🛠️ Tecnologías y herramientas
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=js,react,vite,nodejs,express,html,css,python,postgres,sqlite,arduino,git,github,vscode,vercel&perline=8" alt="JavaScript, React, Vite, Node.js, Express, HTML, CSS, Python, PostgreSQL, SQLite, Arduino, Git, GitHub, VS Code y Vercel" />
+  <img src="https://skillicons.dev/icons?i=ts,js,react,vite,nodejs,go,cpp,kotlin,rust,java,cs,php,python,powershell,postgres,sqlite,git,github,vscode,vercel&perline=10" alt="TypeScript, JavaScript, React, Vite, Node.js, Go, C++, Kotlin, Rust, Java, C#, PHP, Python, PowerShell, PostgreSQL, SQLite, Git, GitHub, VS Code y Vercel" />
 </div>
 
 ## 🚀 Proyectos destacados
@@ -36,44 +37,70 @@ const milo = {
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">🗺️ Atlas MX</h3>
-      <p>Una experiencia interactiva para descubrir los estados, destinos, gastronomía y cultura de México.</p>
-      <p><strong>React · Vite · D3 Geo · TopoJSON</strong></p>
-      <p align="center">
-        <a href="https://github.com/DonMilo-22/Atlas-MX"><img src="https://img.shields.io/badge/Código-181717?style=for-the-badge&logo=github" alt="Código de Atlas MX" /></a>
-        <a href="https://atlasmx.vercel.app"><img src="https://img.shields.io/badge/Ver_proyecto-000000?style=for-the-badge&logo=vercel" alt="Abrir Atlas MX" /></a>
-      </p>
+      <h3 align="center">✅ BaseDeTareas</h3>
+      <p>Plataforma académica para grupos, clases, tareas, anuncios, calendario y recordatorios por correo y push.</p>
+      <p><strong>JavaScript · Node.js · Turso/libSQL · Vercel</strong></p>
+      <p align="center"><a href="https://github.com/DonMilo-22/BaseDeTareas"><img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github" /></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">✅ BaseDeTareas</h3>
-      <p>Aplicación para organizar tareas escolares, gestionar clases y compartir el seguimiento con compañeros.</p>
-      <p><strong>Node.js · Express · Turso/libSQL · JavaScript</strong></p>
-      <p align="center">
-        <a href="https://github.com/DonMilo-22/BaseDeTareas"><img src="https://img.shields.io/badge/Código-181717?style=for-the-badge&logo=github" alt="Código de BaseDeTareas" /></a>
-        <a href="https://base-de-tareas.vercel.app"><img src="https://img.shields.io/badge/Ver_proyecto-000000?style=for-the-badge&logo=vercel" alt="Abrir BaseDeTareas" /></a>
-      </p>
+      <h3 align="center">🗺️ Atlas MX</h3>
+      <p>Experiencia interactiva para explorar estados, destinos, cultura y gastronomía de México.</p>
+      <p><strong>React · Vite · Geo Data · JavaScript</strong></p>
+      <p align="center"><a href="https://github.com/DonMilo-22/Atlas-MX"><img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github" /></a></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3 align="center">📚 Turismo Lab</h3>
-      <p>Herramienta de estudio creada para repasar conceptos de turismo de una forma clara y accesible.</p>
-      <p><strong>JavaScript · HTML · CSS</strong></p>
-      <p align="center">
-        <a href="https://github.com/DonMilo-22/Turismo-Lab"><img src="https://img.shields.io/badge/Código-181717?style=for-the-badge&logo=github" alt="Código de Turismo Lab" /></a>
-        <a href="https://turismolab.vercel.app"><img src="https://img.shields.io/badge/Ver_proyecto-000000?style=for-the-badge&logo=vercel" alt="Abrir Turismo Lab" /></a>
-      </p>
+      <h3 align="center">🎓 React Study Dashboard</h3>
+      <p>Dashboard académico local-first para administrar tareas, materias, fechas y progreso.</p>
+      <p><strong>React · Vite · localStorage</strong></p>
+      <p align="center"><a href="https://github.com/DonMilo-22/React-Study-Dashboard"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /></a></p>
     </td>
     <td width="50%" valign="top">
-      <h3 align="center">🌌 AstroDiff Calculator</h3>
-      <p>Calculadora científica con visualización interactiva de ecuaciones diferenciales y temática espacial.</p>
-      <p><strong>JavaScript · HTML Canvas · CSS</strong></p>
-      <p align="center">
-        <a href="https://github.com/DonMilo-22/AstroDiff_Calculator"><img src="https://img.shields.io/badge/Código-181717?style=for-the-badge&logo=github" alt="Código de AstroDiff Calculator" /></a>
-      </p>
+      <h3 align="center">🔗 GoLink Checker</h3>
+      <p>Comprobador concurrente de URLs que reporta disponibilidad, estado HTTP y latencia.</p>
+      <p><strong>Go · Goroutines · HTTP</strong></p>
+      <p align="center"><a href="https://github.com/DonMilo-22/GoLink-Checker"><img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" /></a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🦀 Rust File Organizer</h3>
+      <p>Organizador de archivos por categorías con modo de simulación y protección contra sobrescrituras.</p>
+      <p><strong>Rust · Filesystem · CLI</strong></p>
+      <p align="center"><a href="https://github.com/DonMilo-22/Rust-File-Organizer"><img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" /></a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🖥️ C++ System Monitor</h3>
+      <p>Monitor ligero para Linux que obtiene CPU, RAM, uptime y procesos directamente desde /proc.</p>
+      <p><strong>C++17 · CMake · Linux</strong></p>
+      <p align="center"><a href="https://github.com/DonMilo-22/Cpp-System-Monitor"><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" /></a></p>
     </td>
   </tr>
 </table>
+
+## 🆕 Proyectos recientes
+
+Los repositorios más nuevos aparecen aquí automáticamente junto con el lenguaje principal que detecta GitHub.
+
+<!-- AUTO:RECENT_PROJECTS_START -->
+
+> 🔄 Esta sección se genera automáticamente desde GitHub.
+
+| Proyecto | Lenguaje | Qué hace |
+|---|---|---|
+| [**PHP-URL-Shortener**](https://github.com/DonMilo-22/PHP-URL-Shortener) | `PHP` | Acortador de URLs pequeño y funcional con PHP y SQLite. |
+| [**CSharp-Inventory-Manager**](https://github.com/DonMilo-22/CSharp-Inventory-Manager) | `C#` | Gestor de inventario CRUD con persistencia JSON en C#. |
+| [**Java-Password-Vault**](https://github.com/DonMilo-22/Java-Password-Vault) | `Java` | Bóveda local educativa con cifrado AES-GCM hecha en Java. |
+| [**Rust-File-Organizer**](https://github.com/DonMilo-22/Rust-File-Organizer) | `Rust` | Organizador seguro de archivos por categorías escrito en Rust. |
+| [**Windows-Health-Toolkit**](https://github.com/DonMilo-22/Windows-Health-Toolkit) | `PowerShell` | Kit de diagnóstico rápido de Windows creado con PowerShell. |
+| [**React-Study-Dashboard**](https://github.com/DonMilo-22/React-Study-Dashboard) | `JavaScript` | Dashboard académico local-first para tareas y progreso de estudio. |
+| [**Kotlin-Expense-Tracker**](https://github.com/DonMilo-22/Kotlin-Expense-Tracker) | `Kotlin` | Registro local de gastos y resúmenes mensuales hecho con Kotlin. |
+| [**Cpp-System-Monitor**](https://github.com/DonMilo-22/Cpp-System-Monitor) | `C++` | Monitor ligero de recursos del sistema escrito en C++. |
+
+<sub>La lista se refresca automáticamente mediante GitHub Actions.</sub>
+
+<!-- AUTO:RECENT_PROJECTS_END -->
 
 ## 📊 Mi actividad en GitHub
 
