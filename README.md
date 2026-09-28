@@ -104,10 +104,32 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 
 ## 📊 Mi actividad en GitHub
 
+<!-- AUTO:ACTIVITY_START -->
+
 <div align="center">
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=DonMilo-22&theme=github_dark" alt="Estadísticas de GitHub de Milo" />
-  <img height="170" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=DonMilo-22&theme=github_dark" alt="Lenguajes más utilizados por Milo" />
+  <img src="https://img.shields.io/badge/Commits_2026-460-8B5CF6?style=for-the-badge&logo=git&logoColor=white" alt="Commits de 2026" />
+  <img src="https://img.shields.io/badge/Datos-GitHub_API-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="Datos desde GitHub API" />
 </div>
+
+### 🧬 Lenguajes por repositorio
+
+| Lenguaje | Repositorios |
+|---|---:|
+| **JavaScript** | varios |
+| **Python** | varios |
+| **TypeScript** | 1+ |
+| **Go** | 1+ |
+| **C++** | 1+ |
+| **Kotlin** | 1+ |
+| **Rust** | 1+ |
+| **Java** | 1+ |
+| **C#** | 1+ |
+| **PHP** | 1+ |
+| **PowerShell** | 1+ |
+
+> Esta tabla será reemplazada automáticamente con los conteos exactos que GitHub detecte en tus repositorios públicos.
+
+<!-- AUTO:ACTIVITY_END -->
 
 <div align="center">
   <img src="https://streak-stats.demolab.com?user=DonMilo-22&theme=transparent&hide_border=true&locale=es&ring=8B5CF6&fire=22D3EE&currStreakLabel=8B5CF6&sideLabels=C9D1D9&dates=8B949E" alt="Racha de contribuciones de Milo" />
