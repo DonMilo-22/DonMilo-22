@@ -111,7 +111,7 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 <br />
 
 <div align="center">
-  <img width="78%" src="./assets/languages.svg" alt="Gráfica de lenguajes por repositorio" />
+  <img width="88%" src="./assets/languages.svg" alt="Gráfica circular de lenguajes por repositorio" />
 </div>
 
 <div align="center">
