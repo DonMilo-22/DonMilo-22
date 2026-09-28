@@ -1,6 +1,11 @@
 name: Update dynamic profile
 
 on:
+  push:
+    branches: ["main"]
+    paths:
+      - "scripts/update_profile.py"
+      - ".github/workflows/update-profile.yml"
   schedule:
     - cron: "*/5 * * * *"
   workflow_dispatch:
