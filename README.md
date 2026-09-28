@@ -92,13 +92,13 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 | [**PHP-URL-Shortener**](https://github.com/DonMilo-22/PHP-URL-Shortener) | `PHP` | Acortador de URLs pequeño y funcional con PHP y SQLite. |
 | [**CSharp-Inventory-Manager**](https://github.com/DonMilo-22/CSharp-Inventory-Manager) | `C#` | Gestor de inventario CRUD con persistencia JSON en C#. |
 | [**Java-Password-Vault**](https://github.com/DonMilo-22/Java-Password-Vault) | `Java` | Bóveda local educativa con cifrado AES-GCM hecha en Java. |
+| [**React-Study-Dashboard**](https://github.com/DonMilo-22/React-Study-Dashboard) | `JavaScript` | Dashboard académico local-first para tareas y progreso de estudio. |
 | [**Rust-File-Organizer**](https://github.com/DonMilo-22/Rust-File-Organizer) | `Rust` | Organizador seguro de archivos por categorías escrito en Rust. |
 | [**Windows-Health-Toolkit**](https://github.com/DonMilo-22/Windows-Health-Toolkit) | `PowerShell` | Kit de diagnóstico rápido de Windows creado con PowerShell. |
-| [**React-Study-Dashboard**](https://github.com/DonMilo-22/React-Study-Dashboard) | `JavaScript` | Dashboard académico local-first para tareas y progreso de estudio. |
 | [**Kotlin-Expense-Tracker**](https://github.com/DonMilo-22/Kotlin-Expense-Tracker) | `Kotlin` | Registro local de gastos y resúmenes mensuales hecho con Kotlin. |
-| [**Cpp-System-Monitor**](https://github.com/DonMilo-22/Cpp-System-Monitor) | `C++` | Monitor ligero de recursos del sistema escrito en C++. |
+| [**GoLink-Checker**](https://github.com/DonMilo-22/GoLink-Checker) | `Go` | Comprobador concurrente de URLs y tiempos de respuesta escrito en Go. |
 
-<sub>La lista se refresca automáticamente mediante GitHub Actions.</sub>
+<sub>Última sincronización automática: 2026-09-28 02:21 UTC</sub>
 
 <!-- AUTO:RECENT_PROJECTS_END -->
 
@@ -107,27 +107,30 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 <!-- AUTO:ACTIVITY_START -->
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Commits_2026-460-8B5CF6?style=for-the-badge&logo=git&logoColor=white" alt="Commits de 2026" />
-  <img src="https://img.shields.io/badge/Datos-GitHub_API-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="Datos desde GitHub API" />
+  <img src="https://img.shields.io/badge/Commits_2026-410-8B5CF6?style=for-the-badge&logo=git&logoColor=white" alt="Commits del año" />
+  <img src="https://img.shields.io/badge/Pull_Requests-18-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="Pull requests del año" />
+  <img src="https://img.shields.io/badge/Issues-0-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="Issues del año" />
 </div>
 
 ### 🧬 Lenguajes por repositorio
 
 | Lenguaje | Repositorios |
 |---|---:|
-| **JavaScript** | varios |
-| **Python** | varios |
-| **TypeScript** | 1+ |
-| **Go** | 1+ |
-| **C++** | 1+ |
-| **Kotlin** | 1+ |
-| **Rust** | 1+ |
-| **Java** | 1+ |
-| **C#** | 1+ |
-| **PHP** | 1+ |
-| **PowerShell** | 1+ |
+| **JavaScript** | 6 |
+| **Python** | 6 |
+| **C#** | 1 |
+| **C++** | 1 |
+| **Go** | 1 |
+| **Java** | 1 |
+| **Kotlin** | 1 |
+| **PHP** | 1 |
+| **PowerShell** | 1 |
+| **Rust** | 1 |
+| **TypeScript** | 1 |
 
-> Esta tabla será reemplazada automáticamente con los conteos exactos que GitHub detecte en tus repositorios públicos.
+> Los lenguajes se calculan usando el lenguaje principal que GitHub detecta en cada repositorio público propio.
+
+<sub>Datos sincronizados: 2026-09-28 02:21 UTC</sub>
 
 <!-- AUTO:ACTIVITY_END -->
 
