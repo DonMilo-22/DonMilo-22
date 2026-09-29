@@ -89,6 +89,7 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 
 | Proyecto | Lenguaje | Qué hace |
 |---|---|---|
+| [**Verificador-Tarjetas-Java**](https://github.com/DonMilo-22/Verificador-Tarjetas-Java) | `Java` | Interfaz Java Swing que valida en tiempo real el formato de tarjetas con Luhn, red, vencimiento y CVC. Proyecto educativo. |
 | [**PHP-URL-Shortener**](https://github.com/DonMilo-22/PHP-URL-Shortener) | `PHP` | Acortador de URLs pequeño y funcional con PHP y SQLite. |
 | [**CSharp-Inventory-Manager**](https://github.com/DonMilo-22/CSharp-Inventory-Manager) | `C#` | Gestor de inventario CRUD con persistencia JSON en C#. |
 | [**Java-Password-Vault**](https://github.com/DonMilo-22/Java-Password-Vault) | `Java` | Bóveda local educativa con cifrado AES-GCM hecha en Java. |
@@ -96,7 +97,6 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 | [**Windows-Health-Toolkit**](https://github.com/DonMilo-22/Windows-Health-Toolkit) | `PowerShell` | Kit de diagnóstico rápido de Windows creado con PowerShell. |
 | [**Cpp-System-Monitor**](https://github.com/DonMilo-22/Cpp-System-Monitor) | `C++` | Monitor ligero de recursos del sistema escrito en C++. |
 | [**GoLink-Checker**](https://github.com/DonMilo-22/GoLink-Checker) | `Go` | Comprobador concurrente de URLs y tiempos de respuesta escrito en Go. |
-| [**React-Study-Dashboard**](https://github.com/DonMilo-22/React-Study-Dashboard) | `JavaScript` | Dashboard académico local-first para tareas y progreso de estudio. |
 
 <sub>Actualización automática mediante GitHub Actions.</sub>
 
@@ -105,13 +105,13 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 ## 📊 Mi actividad en GitHub
 
 <div align="center">
-  <img width="92%" src="./assets/github-activity.svg?v=4705c134" alt="Actividad de GitHub actualizada automáticamente" />
+  <img width="92%" src="./assets/github-activity.svg?v=3bb31729" alt="Actividad de GitHub actualizada automáticamente" />
 </div>
 
 <br />
 
 <div align="center">
-  <img width="88%" src="./assets/languages.svg?v=4ad3484b" alt="Gráfica circular de lenguajes por repositorio" />
+  <img width="88%" src="./assets/languages.svg?v=4361ed02" alt="Gráfica circular de lenguajes por repositorio" />
 </div>
 
 <div align="center">
