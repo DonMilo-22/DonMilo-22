@@ -105,7 +105,7 @@ Los repositorios más nuevos aparecen aquí automáticamente junto con el lengua
 ## 📊 Mi actividad en GitHub
 
 <div align="center">
-  <img width="92%" src="./assets/github-activity.svg?v=ba7f3c30" alt="Actividad de GitHub actualizada automáticamente" />
+  <img width="92%" src="./assets/github-activity.svg?v=0661e9ba" alt="Actividad de GitHub actualizada automáticamente" />
 </div>
 
 <br />
