@@ -46,14 +46,14 @@ Los repositorios con actividad reciente aparecen aquí automáticamente junto co
 
 | Proyecto | Lenguaje | Qué hace |
 |---|---|---|
-| [**Cpp-System-Monitor**](https://github.com/DonMilo-22/Cpp-System-Monitor) | `C++` | Monitor ligero de recursos del sistema escrito en C++. |
-| [**Itzan-Kanak-Hotel**](https://github.com/DonMilo-22/Itzan-Kanak-Hotel) | `JavaScript` | Proyecto reciente de mi portafolio. |
-| [**BaseDeTareas**](https://github.com/DonMilo-22/BaseDeTareas) | `JavaScript` | I created this webpage so i could keep track of my homework assignments and also share it to my classmates so they could use it too |
-| [**GoLink-Checker**](https://github.com/DonMilo-22/GoLink-Checker) | `Go` | Comprobador concurrente de URLs y tiempos de respuesta escrito en Go. |
-| [**Python-Beginner-Exercises**](https://github.com/DonMilo-22/Python-Beginner-Exercises) | `Python` | Proyecto reciente de mi portafolio. |
-| [**Super-Diccionario**](https://github.com/DonMilo-22/Super-Diccionario) | `Python` | This is like a dictionary that can help you look for words depending on the starting letters you give it, I build this because I needed a tool like this for a Roblox game, that's all |
+| [**React-Study-Dashboard**](https://github.com/DonMilo-22/React-Study-Dashboard) | `JavaScript` | Dashboard académico local-first para tareas y progreso de estudio. |
+| [**Java-Password-Vault**](https://github.com/DonMilo-22/Java-Password-Vault) | `Java` | Bóveda local educativa con cifrado AES-GCM hecha en Java. |
 | [**PHP-URL-Shortener**](https://github.com/DonMilo-22/PHP-URL-Shortener) | `PHP` | Acortador de URLs pequeño y funcional con PHP y SQLite. |
+| [**CSharp-Inventory-Manager**](https://github.com/DonMilo-22/CSharp-Inventory-Manager) | `C#` | Gestor de inventario CRUD con persistencia JSON en C#. |
+| [**Rust-File-Organizer**](https://github.com/DonMilo-22/Rust-File-Organizer) | `Rust` | Organizador seguro de archivos por categorías escrito en Rust. |
+| [**Windows-Health-Toolkit**](https://github.com/DonMilo-22/Windows-Health-Toolkit) | `PowerShell` | Kit de diagnóstico rápido de Windows creado con PowerShell. |
 | [**Kotlin-Expense-Tracker**](https://github.com/DonMilo-22/Kotlin-Expense-Tracker) | `Kotlin` | Registro local de gastos y resúmenes mensuales hecho con Kotlin. |
+| [**Cpp-System-Monitor**](https://github.com/DonMilo-22/Cpp-System-Monitor) | `C++` | Monitor ligero de recursos del sistema escrito en C++. |
 
 <sub>Actualización automática mediante GitHub Actions.</sub>
 
@@ -62,7 +62,7 @@ Los repositorios con actividad reciente aparecen aquí automáticamente junto co
 ## 📊 Mi actividad en GitHub
 
 <div align="center">
-  <img width="92%" src="./assets/github-activity.svg?v=4d628835" alt="Actividad de GitHub actualizada automáticamente" />
+  <img width="92%" src="./assets/github-activity.svg?v=f2fc4885" alt="Actividad de GitHub actualizada automáticamente" />
 </div>
 
 <br />
