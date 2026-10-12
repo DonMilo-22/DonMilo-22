@@ -8,80 +8,37 @@
   </a>
 </div>
 
-## 👨‍💻 Sobre mí
+## Sobre mí
 
-```javascript
-const milo = {
-  ubicacion: "Campeche, México 🇲🇽",
-  carrera: "Ingeniería en Sistemas Computacionales",
-  enfoque: ["Desarrollo web", "Bases de datos", "Software útil"],
-  aprendiendo: ["TypeScript", "Go", "Rust", "Kotlin", "Arquitectura de software"],
-  objetivo: "Convertir ideas en proyectos que la gente realmente use"
-};
-```
+Soy Milo, estudiante de Ingeniería en Sistemas Computacionales en Campeche, México. Construyo aplicaciones web y herramientas de escritorio y terminal para resolver necesidades cotidianas.
 
-- 🎓 Estudiante de **Ingeniería en Sistemas Computacionales**.
-- 🧭 Me gusta crear proyectos que solucionan necesidades reales.
-- 🧪 Disfruto experimentar con desarrollo web, sistemas, automatización, bases de datos y distintos lenguajes.
-- 🌱 Mi GitHub ahora mezcla proyectos en **TypeScript, Go, C++, Kotlin, React, PowerShell, Rust, Java, C#, PHP, Python y JavaScript**.
-- ⚙️ La sección de proyectos recientes se actualiza automáticamente desde mis repositorios.
+## Tecnologías y herramientas
 
-## 🛠️ Tecnologías y herramientas
+- **Uso habitual:** JavaScript, React, Node.js, HTML/CSS, Python, SQL, Git y Vercel.
+- **Práctica y aprendizaje:** TypeScript, Go, C++, Rust, Kotlin, Java, C#, PHP y PowerShell.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,react,vite,nodejs,go,cpp,kotlin,rust,java,cs,php,python,powershell,postgres,sqlite,git,github,vscode,vercel&perline=10" alt="TypeScript, JavaScript, React, Vite, Node.js, Go, C++, Kotlin, Rust, Java, C#, PHP, Python, PowerShell, PostgreSQL, SQLite, Git, GitHub, VS Code y Vercel" />
-</div>
+## Proyectos destacados
 
-## 🚀 Proyectos destacados
+| Proyecto | Qué aporta | Tecnologías |
+|---|---|---|
+| [BaseDeTareas](https://github.com/DonMilo-22/BaseDeTareas) | Organización académica colaborativa con grupos, roles y recordatorios. | JavaScript, Express, Turso, Resend, QStash |
+| [Atlas MX](https://github.com/DonMilo-22/Atlas-MX) | Exploración de México mediante mapas e información turística. | React, Vite, SVG, APIs de fotografías |
+| [Word Helper](https://github.com/DonMilo-22/Super-Diccionario) | Asistente de escritorio con OCR y búsqueda de palabras. | Python, PyQt6, Apple Vision, Tesseract |
+| [GoLink Checker](https://github.com/DonMilo-22/GoLink-Checker) | Comprobación concurrente de URLs y resultados para scripts. | Go, goroutines, HTTP |
+| [C++ System Monitor](https://github.com/DonMilo-22/Cpp-System-Monitor) | Lectura de CPU, memoria y otras métricas de Linux. | C++17, Linux, CMake |
+| [Rust File Organizer](https://github.com/DonMilo-22/Rust-File-Organizer) | Organización de archivos con simulación y control de colisiones. | Rust, filesystem, CLI |
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">✅ BaseDeTareas</h3>
-      <p>Plataforma académica para grupos, clases, tareas, anuncios, calendario y recordatorios por correo y push.</p>
-      <p><strong>JavaScript · Node.js · Turso/libSQL · Vercel</strong></p>
-      <p align="center"><a href="https://github.com/DonMilo-22/BaseDeTareas"><img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github" /></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🗺️ Atlas MX</h3>
-      <p>Experiencia interactiva para explorar estados, destinos, cultura y gastronomía de México.</p>
-      <p><strong>React · Vite · Geo Data · JavaScript</strong></p>
-      <p align="center"><a href="https://github.com/DonMilo-22/Atlas-MX"><img src="https://img.shields.io/badge/Ver_repositorio-181717?style=for-the-badge&logo=github" /></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🎓 React Study Dashboard</h3>
-      <p>Dashboard académico local-first para administrar tareas, materias, fechas y progreso.</p>
-      <p><strong>React · Vite · localStorage</strong></p>
-      <p align="center"><a href="https://github.com/DonMilo-22/React-Study-Dashboard"><img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🔗 GoLink Checker</h3>
-      <p>Comprobador concurrente de URLs que reporta disponibilidad, estado HTTP y latencia.</p>
-      <p><strong>Go · Goroutines · HTTP</strong></p>
-      <p align="center"><a href="https://github.com/DonMilo-22/GoLink-Checker"><img src="https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" /></a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3 align="center">🦀 Rust File Organizer</h3>
-      <p>Organizador de archivos por categorías con modo de simulación y protección contra sobrescrituras.</p>
-      <p><strong>Rust · Filesystem · CLI</strong></p>
-      <p align="center"><a href="https://github.com/DonMilo-22/Rust-File-Organizer"><img src="https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white" /></a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3 align="center">🖥️ C++ System Monitor</h3>
-      <p>Monitor ligero para Linux que obtiene CPU, RAM, uptime y procesos directamente desde /proc.</p>
-      <p><strong>C++17 · CMake · Linux</strong></p>
-      <p align="center"><a href="https://github.com/DonMilo-22/Cpp-System-Monitor"><img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" /></a></p>
-    </td>
-  </tr>
-</table>
+## Más proyectos
+
+- [TaskFlow CLI](https://github.com/DonMilo-22/TaskFlow-CLI): tareas locales desde terminal con TypeScript.
+- [Kotlin Expense Tracker](https://github.com/DonMilo-22/Kotlin-Expense-Tracker): registro de gastos y resúmenes.
+- [React Study Dashboard](https://github.com/DonMilo-22/React-Study-Dashboard): tareas personales guardadas en el navegador.
+- [Windows Health Toolkit](https://github.com/DonMilo-22/Windows-Health-Toolkit): informes del equipo con PowerShell.
+- [Python Beginner Exercises](https://github.com/DonMilo-22/Python-Beginner-Exercises): ejercicios de fundamentos y aprendizaje.
 
 ## 🆕 Proyectos recientes
 
-Los repositorios más nuevos aparecen aquí automáticamente junto con el lenguaje principal que detecta GitHub.
+Los repositorios con actividad reciente aparecen aquí automáticamente junto con el lenguaje principal que detecta GitHub. Esta lista complementa la selección fija de arriba.
 
 <!-- AUTO:RECENT_PROJECTS_START -->
 
