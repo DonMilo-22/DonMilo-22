@@ -47,13 +47,13 @@ Los repositorios con actividad reciente aparecen aquí automáticamente junto co
 | Proyecto | Lenguaje | Qué hace |
 |---|---|---|
 | [**CSharp-Inventory-Manager**](https://github.com/DonMilo-22/CSharp-Inventory-Manager) | `C#` | Gestor de inventario CRUD con persistencia JSON en C#. |
-| [**Rust-File-Organizer**](https://github.com/DonMilo-22/Rust-File-Organizer) | `Rust` | Organizador seguro de archivos por categorías escrito en Rust. |
-| [**PHP-URL-Shortener**](https://github.com/DonMilo-22/PHP-URL-Shortener) | `PHP` | Acortador de URLs pequeño y funcional con PHP y SQLite. |
 | [**Windows-Health-Toolkit**](https://github.com/DonMilo-22/Windows-Health-Toolkit) | `PowerShell` | Kit de diagnóstico rápido de Windows creado con PowerShell. |
-| [**Java-Password-Vault**](https://github.com/DonMilo-22/Java-Password-Vault) | `Java` | Bóveda local educativa con cifrado AES-GCM hecha en Java. |
-| [**React-Study-Dashboard**](https://github.com/DonMilo-22/React-Study-Dashboard) | `JavaScript` | Dashboard académico local-first para tareas y progreso de estudio. |
+| [**TaskFlow-CLI**](https://github.com/DonMilo-22/TaskFlow-CLI) | `TypeScript` | Administrador de tareas local desde terminal construido con TypeScript. |
 | [**Kotlin-Expense-Tracker**](https://github.com/DonMilo-22/Kotlin-Expense-Tracker) | `Kotlin` | Registro local de gastos y resúmenes mensuales hecho con Kotlin. |
+| [**React-Study-Dashboard**](https://github.com/DonMilo-22/React-Study-Dashboard) | `JavaScript` | Dashboard académico local-first para tareas y progreso de estudio. |
+| [**Rust-File-Organizer**](https://github.com/DonMilo-22/Rust-File-Organizer) | `Rust` | Organizador seguro de archivos por categorías escrito en Rust. |
 | [**Cpp-System-Monitor**](https://github.com/DonMilo-22/Cpp-System-Monitor) | `C++` | Monitor ligero de recursos del sistema escrito en C++. |
+| [**GoLink-Checker**](https://github.com/DonMilo-22/GoLink-Checker) | `Go` | Comprobador concurrente de URLs y tiempos de respuesta escrito en Go. |
 
 <sub>Actualización automática mediante GitHub Actions.</sub>
 
@@ -62,7 +62,7 @@ Los repositorios con actividad reciente aparecen aquí automáticamente junto co
 ## 📊 Mi actividad en GitHub
 
 <div align="center">
-  <img width="92%" src="./assets/github-activity.svg?v=4c8a6c0e" alt="Actividad de GitHub actualizada automáticamente" />
+  <img width="92%" src="./assets/github-activity.svg?v=baf5c9ec" alt="Actividad de GitHub actualizada automáticamente" />
 </div>
 
 <br />
