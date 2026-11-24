@@ -47,13 +47,13 @@ Los repositorios con actividad reciente aparecen aquí automáticamente junto co
 | Proyecto | Lenguaje | Qué hace |
 |---|---|---|
 | [**Atlas-MX**](https://github.com/DonMilo-22/Atlas-MX) | `JavaScript` | A website i created with the help of my tourist friends |
+| [**BaseDeTareas**](https://github.com/DonMilo-22/BaseDeTareas) | `JavaScript` | I created this webpage so i could keep track of my homework assignments and also share it to my classmates so they could use it too |
 | [**Cpp-System-Monitor**](https://github.com/DonMilo-22/Cpp-System-Monitor) | `C++` | Monitor ligero de recursos del sistema escrito en C++. |
 | [**TaskFlow-CLI**](https://github.com/DonMilo-22/TaskFlow-CLI) | `TypeScript` | Administrador de tareas local desde terminal construido con TypeScript. |
 | [**PHP-URL-Shortener**](https://github.com/DonMilo-22/PHP-URL-Shortener) | `PHP` | Acortador de URLs pequeño y funcional con PHP y SQLite. |
 | [**CSharp-Inventory-Manager**](https://github.com/DonMilo-22/CSharp-Inventory-Manager) | `C#` | Gestor de inventario CRUD con persistencia JSON en C#. |
 | [**Java-Password-Vault**](https://github.com/DonMilo-22/Java-Password-Vault) | `Java` | Bóveda local educativa con cifrado AES-GCM hecha en Java. |
 | [**Rust-File-Organizer**](https://github.com/DonMilo-22/Rust-File-Organizer) | `Rust` | Organizador seguro de archivos por categorías escrito en Rust. |
-| [**Windows-Health-Toolkit**](https://github.com/DonMilo-22/Windows-Health-Toolkit) | `PowerShell` | Kit de diagnóstico rápido de Windows creado con PowerShell. |
 
 <sub>Actualización automática mediante GitHub Actions.</sub>
 
