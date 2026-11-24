@@ -46,6 +46,7 @@ Los repositorios con actividad reciente aparecen aquí automáticamente junto co
 
 | Proyecto | Lenguaje | Qué hace |
 |---|---|---|
+| [**Atlas-MX**](https://github.com/DonMilo-22/Atlas-MX) | `JavaScript` | A website i created with the help of my tourist friends |
 | [**Cpp-System-Monitor**](https://github.com/DonMilo-22/Cpp-System-Monitor) | `C++` | Monitor ligero de recursos del sistema escrito en C++. |
 | [**TaskFlow-CLI**](https://github.com/DonMilo-22/TaskFlow-CLI) | `TypeScript` | Administrador de tareas local desde terminal construido con TypeScript. |
 | [**PHP-URL-Shortener**](https://github.com/DonMilo-22/PHP-URL-Shortener) | `PHP` | Acortador de URLs pequeño y funcional con PHP y SQLite. |
@@ -53,7 +54,6 @@ Los repositorios con actividad reciente aparecen aquí automáticamente junto co
 | [**Java-Password-Vault**](https://github.com/DonMilo-22/Java-Password-Vault) | `Java` | Bóveda local educativa con cifrado AES-GCM hecha en Java. |
 | [**Rust-File-Organizer**](https://github.com/DonMilo-22/Rust-File-Organizer) | `Rust` | Organizador seguro de archivos por categorías escrito en Rust. |
 | [**Windows-Health-Toolkit**](https://github.com/DonMilo-22/Windows-Health-Toolkit) | `PowerShell` | Kit de diagnóstico rápido de Windows creado con PowerShell. |
-| [**React-Study-Dashboard**](https://github.com/DonMilo-22/React-Study-Dashboard) | `JavaScript` | Dashboard académico local-first para tareas y progreso de estudio. |
 
 <sub>Actualización automática mediante GitHub Actions.</sub>
 
